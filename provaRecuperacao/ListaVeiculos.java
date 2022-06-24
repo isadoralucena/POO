@@ -3,8 +3,8 @@ import java.util.ArrayList;//Importando classe
 import java.util.List;//Importando classe
 import java.util.Scanner;//Importando a classe Scanner para leitura do teclado
 public class ListaVeiculos {//Criando classe
-    /*Foi usado polimorfismo de modo que um mesmo elemento tenha diferentes diferentes/ diferentes jeitos/diferentes comportamentos.
-      Permitindo que classes pertencentes a uma mesma linha de herança possuiessem comportamentos diferentes para o mesmo método*/
+    /*Foi usado polimorfismo de modo que um mesmo elemento tenha diferentes jeitos/comportamentos.
+      Permitindo que classes pertencentes a uma mesma linha de herança possuissem comportamentos diferentes para o mesmo método*/
     Scanner sc = new Scanner(System.in);//Instanciando a classe Scanner
     List <VeiculoTerrestre> veiculoT = new ArrayList<VeiculoTerrestre>();//Criando uma lista de veiculos terrestres
     List <VeiculoAquatico> veiculoAq = new ArrayList<VeiculoAquatico>();//Criando uma lista de veiculos aquaticos
